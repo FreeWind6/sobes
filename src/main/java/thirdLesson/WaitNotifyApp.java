@@ -1,4 +1,4 @@
-package ThirdLesson;
+package thirdLesson;
 
 /**
  * Взял идею из вашего проекта

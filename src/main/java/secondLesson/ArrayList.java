@@ -1,4 +1,4 @@
-package SecondLesson;
+package secondLesson;
 
 /**
  * @author Dmitry Kubyshkin

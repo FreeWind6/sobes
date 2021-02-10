@@ -1,4 +1,4 @@
-package ThirdLesson;
+package thirdLesson;
 
 import java.util.concurrent.locks.ReentrantLock;
 
