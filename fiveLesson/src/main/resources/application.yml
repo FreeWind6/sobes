@@ -1,0 +1,26 @@
+spring:
+  #  security:
+  #    user:
+  #      name: test
+  #      password: test
+  ################### DataSource Configuration ##########################
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: root
+
+  ################### Hibernate Configuration ##########################
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        format_sql: true
+        jdbc.lob.non_contextual_creation: true
+        temp.use_jdbc_metadata_defaults: false
+
+
+server:
+  port: 8081
